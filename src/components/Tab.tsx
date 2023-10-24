@@ -1,14 +1,14 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-import { useEffect, useState } from 'react';
-import ScanBarCode from './ScanBarCode';
-import GetGeoLocation from './GetGeoLocation';
+import { useEffect } from 'react';
+// import ScanBarCode from './ScanBarCode';
+// import GetGeoLocation from './GetGeoLocation';
 import CaptureImage from './CaptureImage';
 import CaptureImageWeb from './CaptureImageWeb';
 import PeoplePicker from './PeoplePicker';
-import CaptureAudio from './CaptureAudio';
-import CaptureVideo from './CaptureVideo';
+// import CaptureAudio from './CaptureAudio';
+// import CaptureVideo from './CaptureVideo';
 import CaptureAudioWeb from './CaptureAudioWeb';
 import CaptureVideoWeb from './CaptureVideoWeb';
 import GetLocationWeb from './GetLocationWeb';
