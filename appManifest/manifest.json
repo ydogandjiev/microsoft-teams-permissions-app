@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "version": "1.0.0",
+  "id": "ba0b5df3-291c-4855-bd22-185658519d8e",
+  "packageName": "com.microsoft.teams.extension",
+  "developer": {
+    "name": "Teams App, Inc.",
+    "websiteUrl": "https://teams-test-app.ngrok.io",
+    "privacyUrl": "https://teams-test-app.ngrok.io/privacy",
+    "termsOfUseUrl": "https://teams-test-app.ngrok.io/termsofuse"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Permissions App",
+    "full": "Tab Device Permission Demo App"
+  },
+  "description": {
+    "short": "Tab Device Permission Demo",
+    "full": "Tab Device Permission Demo"
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "index",
+      "name": "Device permission tab",
+      "contentUrl": "https://teams-test-app.ngrok.io/tab",
+      "websiteUrl": "https://teams-test-app.ngrok.io/tab",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "teams-test-app.ngrok.io"
+  ],
+  "devicePermissions": [
+    "media",
+    "geolocation"
+  ]
+}
